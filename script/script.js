@@ -1,9 +1,9 @@
-function abrir(num){
+function abrir(num) {
     for(let i = 1; i <= 5; i++){
         let id_aba = "aba"+i;
         let id_ab = "a"+i;
-        document.getElementById(id_ab).style.display = "none";
         document.getElementById(id_aba).disabled = false;
+        document.getElementById(id_ab).style.display = "none";
     }
 
     if(num == "1"){
@@ -26,4 +26,5 @@ function abrir(num){
         document.getElementById("aba5").disabled = true;
         document.getElementById("a5").style.display = "block";
     }
+
 }
