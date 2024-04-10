@@ -1,6 +1,10 @@
-
-
-
+.desp{
+    border: none;
+    width: 72px;
+    color: aliceblue;
+    background-color: black;
+    font-size: 32px;
+}
 
 .conteudo {
     width: 100%;
